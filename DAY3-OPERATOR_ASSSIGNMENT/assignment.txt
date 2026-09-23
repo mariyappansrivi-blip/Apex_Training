@@ -1,0 +1,28 @@
+x=5
+x -=3 
+print(x)
+
+x = 5 
+x*=3
+print(x)
+
+x = 5 
+x/=3
+print(x)
+
+x = 5
+x%= 3
+print(x)
+
+x = 3
+x**=3
+print(x)
+
+output:
+2
+15
+1.6666666666667
+2
+27
+
+
