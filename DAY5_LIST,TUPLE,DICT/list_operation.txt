@@ -1,0 +1,122 @@
+# empty list
+my_list = []
+
+# list of integers
+my_list = [1, 2, 3]
+
+# list with mixed data types
+my_list = [1, "Hello", 3.4]
+
+#multiple datatype assign
+n_list=[2.9,3000,'Hello',"Welcome to python list ", True]
+print(n_list)
+
+# Nested List Example1
+n_list = ["Happy", [2, 0, 1, 5]]
+
+# Nested indexing
+print(n_list[0][3])
+print(n_list[1][2])
+
+# Nested List Example2
+my_list = ["mouse", [8, 4, 6], ['a','b','c']]
+print(my_list) 
+print(my_list[0])
+
+# Nested indexing
+print(my_list[1][1])
+print(my_list[2][2])
+
+# Negative indexing in lists
+my_list = ['p','r','o','b','e']
+print(my_list[-1])
+print(my_list[-5])
+
+# Appending and Extending lists in Python
+
+odd = [1, 3, 5]
+odd.append(7)
+print(odd)
+
+odd.extend([9, 11, 13])
+print(odd)
+
+# Concatenating and repeating lists
+odd = [1, 3, 5]
+
+print(odd + [9, 7, 5])
+
+print(["re"] * 3)
+
+#length and remove in lists
+thislist = ["apple", "banana", "cherry"]
+print(len(thislist))
+
+thislist = ["apple", "banana", "cherry"]
+thislist.remove("banana")
+print(thislist)
+
+#sort in list
+thislist = ["orange", "mango", "kiwi", "pineapple", "banana"]
+thislist.sort()
+print(thislist)
+
+#insert in lists
+fruits = ['apple', 'banana', 'cherry']
+fruits.insert(1, "orange")
+print(fruits)
+
+#pop in lists
+thislist = ["apple","banana","cherry"]
+thislist.pop(1)
+print(thislist)
+
+
+#Python List count() Method
+fruits = ["apple","banana","cherry","apple"]
+x = fruits.count("apple")
+print(x)
+
+# Program to demonstrate
+lst = [10, 20, 30, 40]
+
+# Create a copy of the list
+new_lst = lst.copy()
+print("Original List :", lst)
+print("Copied List   :", new_lst)
+
+#list index() method
+lst = [10, 20, 30, 40, 50]
+value = 30
+position = lst.index(value)
+print("List     :", lst)
+print("Value    :", value)
+print("Index    :", position)
+
+
+
+OUTPUT:
+[2.9, 3000, 'Hello', 'Welcome to python list ', True]
+p
+1
+['mouse', [8, 4, 6], ['a', 'b', 'c']]
+mouse
+4
+c
+e
+p
+[1, 3, 5, 7]
+[1, 3, 5, 7, 9, 11, 13]
+[1, 3, 5, 9, 7, 5]
+['re', 're', 're']
+3
+['apple', 'cherry']
+['banana', 'kiwi', 'mango', 'orange', 'pineapple']
+['apple', 'orange', 'banana', 'cherry']
+['apple', 'cherry']
+2
+Original List : [10, 20, 30, 40]
+Copied List   : [10, 20, 30, 40]
+List     : [10, 20, 30, 40, 50]
+Value    : 30
+Index    : 2
