@@ -1,0 +1,7 @@
+#count in list
+Mark=[80,75,90,80,65,80]
+print(Mark.count(80),"occured 3 times")
+
+OUTPUT:
+
+3 occured 3 times
