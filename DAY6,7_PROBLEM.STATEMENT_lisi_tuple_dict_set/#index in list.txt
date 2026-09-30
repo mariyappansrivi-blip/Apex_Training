@@ -1,0 +1,47 @@
+#index in list
+student=["Arun","Bala","Kavin","Ravi"]
+search_student="Kavin"
+index=student.index(search_student)
+print("student=",search_student)
+print("index=",index)
+
+#test cases
+a=["A","B","C"]
+search_a="A"
+index=a.index(search_a)
+print("a=",search_a)
+print("index=",index)
+
+a=["A","B","C"]
+search_a="C"
+index=a.index(search_a)
+print("a=",search_a)
+print("index=",index)
+
+a=["Java","Python","SQL"]
+search_a="Java"
+index=a.index(search_a)
+print("a=",search_a)
+print("index=",index)
+
+a=["Red","Green","Blue"]
+search_a="Blue"
+index=a.index(search_a)
+print("a=",search_a)
+print("index=",index)
+
+
+
+
+OUTPUT:
+
+student= Kavin
+index= 2
+a= A
+index= 0
+a= C
+index= 2
+a= Java
+index= 0
+a= Blue
+index= 2
