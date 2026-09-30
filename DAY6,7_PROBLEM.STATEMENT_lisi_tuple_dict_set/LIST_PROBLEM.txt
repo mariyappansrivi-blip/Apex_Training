@@ -1,0 +1,34 @@
+#append in lists
+Students=["Arun","Bala","Kavin"]
+New_Student="Ravi"
+Students.append(New_Student)
+print("Update Student=",Students)
+
+#test cases
+students=["Arun","Bala"]
+new_student="Ravi"
+students.append(new_student)
+print("Update Student=",students)
+
+students=["Kavin"]
+new_student="Mohan"
+students.append(new_student)
+print("Update Student=",students)
+
+students=[]
+new_student="Priya"
+students.append(new_student)
+print("Update Student=",students)
+
+students=["A","B","C"]
+new_student="D"
+students.append(new_student)
+print("Update Student=",students)
+
+
+OUTPUT:
+Update Student= ['Arun', 'Bala', 'Kavin', 'Ravi']
+Update Student= ['Arun', 'Bala', 'Ravi']
+Update Student= ['Kavin', 'Mohan']
+Update Student= ['Priya']
+Update Student= ['A', 'B', 'C', 'D']
