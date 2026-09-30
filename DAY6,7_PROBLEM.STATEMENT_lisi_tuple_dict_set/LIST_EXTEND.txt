@@ -1,0 +1,34 @@
+#extend in list
+Existing=["Python","Java"]
+New=["MySQL","HTML","CSS"]
+Existing.extend(New)
+print("Updated=",Existing)
+
+#test cases
+Existing=["Python"]
+New=["Java","SQL"]
+Existing.extend(New)
+print("Updated=",Existing)
+
+Existing=["C","C++"]
+New=["Java"]
+Existing.extend(New)
+print("Updated=",Existing)
+
+Existing=["Python","Java"]
+New=['Python','Java']
+Existing.extend(New)
+print("Updated=",Existing)
+
+Existing=["CSS","JS","Bootstrap"]
+New=["HTML","CSS","JS","Bootstrap"]
+Existing.extend(New)
+print("Updated=",Existing)
+
+
+OUTPUT:
+Updated= ['Python', 'Java', 'MySQL', 'HTML', 'CSS']
+Updated= ['Python', 'Java', 'SQL']
+Updated= ['C', 'C++', 'Java']
+Updated= ['Python', 'Java', 'Python', 'Java']
+Updated= ['CSS', 'JS', 'Bootstrap', 'HTML', 'CSS', 'JS', 'Bootstrap']
