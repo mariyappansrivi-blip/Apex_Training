@@ -1,0 +1,29 @@
+#remove in list
+Cart=["Laptop","Mouse","Keyboard","Monitor"]
+Cart.remove("Keyboard")
+print("Updated Cart=",Cart)
+
+#test cses
+Cart=["Pen","Book","Bag"]
+Cart.remove("Book")
+print("Updated Cart=",Cart)
+
+Cart=["A","B","C"]
+Cart.remove("A")
+print("Updated Cart=",Cart)
+
+Cart=["Java","Python","SQL"]
+Cart.remove("SQL")
+print("Updated Cart=",Cart)
+
+Cart=["Apple","Mango","Orange"]
+Cart.remove("Mango")
+print("Updated Cart=",Cart)
+
+OUTPUT:
+
+Updated Cart= ['Laptop', 'Mouse', 'Monitor']
+Updated Cart= ['Pen', 'Bag']
+Updated Cart= ['B', 'C']
+Updated Cart= ['Java', 'Python']
+Updated Cart= ['Apple', 'Orange']
