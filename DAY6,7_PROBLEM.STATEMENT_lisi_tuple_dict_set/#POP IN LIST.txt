@@ -1,0 +1,40 @@
+#POP IN LIST
+Courses=["Python","Java","SQL","Spring"]
+Remove=Courses.pop(3)
+print("Removed Courses=",Remove)
+print("Updated Courses=",Courses)
+
+#test cases
+Courses=["A","B","C"]
+Remove=Courses.pop(2)
+print("Removed Courses=",Remove)
+print("Updated Courses=",Courses)
+
+Courses=["Python","Java"]
+Remove=Courses.pop(1)
+print("Removed Courses=",Remove)
+print("Updated Courses=",Courses)
+
+Courses=["10","20"]
+Remove=Courses.pop(1)
+print("Removed Courses=",Remove)
+print("Updated Courses=",Courses)
+
+Courses=["Book","Pen","Bag"]
+Remove=Courses.pop(2)
+print("Removed Courses=",Remove)
+print("Updated Courses=",Courses)
+
+
+OUTPUT:
+
+Removed Courses= Spring
+Updated Courses= ['Python', 'Java', 'SQL']
+Removed Courses= C
+Updated Courses= ['A', 'B']
+Removed Courses= Java
+Updated Courses= ['Python']
+Removed Courses= 20
+Updated Courses= ['10']
+Removed Courses= Bag
+Updated Courses= ['Book', 'Pen']
