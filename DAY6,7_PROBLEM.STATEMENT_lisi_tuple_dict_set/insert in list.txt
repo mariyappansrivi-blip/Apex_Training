@@ -1,0 +1,39 @@
+#insert in list
+Students=["Arun","Bala","Kavin","Ravi"]
+New_Student="Mohan"
+Position=2
+Students.insert(Position,New_Student)
+print("updated=",Students)
+
+#test cases
+a=["A","B","C"]
+New="X"
+Position=1
+a.insert(Position,New)
+print("updated=",a)
+
+a=["A","B","C"]
+New="5"
+Position=0
+a.insert(Position,New)
+print("updated=",a)
+
+a=["Java","python"]
+New="C++"
+Position=1
+a.insert(Position,New)
+print("updated=",a)
+
+a=["P","Q","R"]
+New="S"
+Position=2
+a.insert(Position,New)
+print("updated=",a)
+
+OUTPUT:
+
+updated= ['Arun', 'Bala', 'Mohan', 'Kavin', 'Ravi']
+updated= ['A', 'X', 'B', 'C']
+updated= ['5', 'A', 'B', 'C']
+updated= ['Java', 'C++', 'python']
+updated= ['P', 'Q', 'S', 'R']
