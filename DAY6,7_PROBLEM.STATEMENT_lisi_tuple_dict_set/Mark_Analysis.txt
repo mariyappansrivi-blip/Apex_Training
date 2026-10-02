@@ -1,0 +1,82 @@
+Marks=[55,65,75,84,94]
+total=sum(Marks)
+highest=max(Marks)
+lowest=min(Marks)
+average=total/len(Marks)
+
+print("Total=",total)
+print("Highest=",highest)
+print("Lowest=",lowest)
+print("Number of Student=",len(Marks))
+print("Average=",average)
+
+#test cases
+
+#1
+M=[10,20,30]
+total=sum(Marks)
+highest=max(Marks)
+lowest=min(Marks)
+length=len(Marks)
+print("Total=",total)
+print("Highest=",highest)
+print("Lowest=",lowest)
+print("Length=",length)
+
+#2
+M=[50,60,80,36]
+total=sum(Marks)
+highest=max(Marks)
+lowest=min(Marks)
+length=len(Marks)
+print("Total=",total)
+print("Highest=",highest)
+print("Lowest=",lowest)
+print("Length=",length)
+
+#3
+H=[90,70,90]
+total=sum(Marks)
+highest=max(Marks)
+lowest=min(Marks)
+length=len(Marks)
+print("Total=",total)
+print("Highest=",highest)
+print("Lowest=",lowest)
+print("Length=",length)
+
+#4
+N=[1,2,3,4,5,6,7,8,9,0]
+total=sum(Marks)
+highest=max(Marks)
+lowest=min(Marks)
+length=len(Marks)
+print("Total=",total)
+print("Highest=",highest)
+print("Lowest=",lowest)
+print("Length=",length)
+     
+     
+OUTPUT:
+Total= 373
+Highest= 94
+Lowest= 55
+Number of Student= 5
+Average= 74.6
+Total= 373
+Highest= 94
+Lowest= 55
+Length= 5
+Total= 373
+Highest= 94
+Lowest= 55
+Length= 5
+Total= 373
+Highest= 94
+Lowest= 55
+Length= 5
+Total= 373
+Highest= 94
+Lowest= 55
+Length= 5
+     
