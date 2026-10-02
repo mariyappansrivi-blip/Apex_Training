@@ -1,0 +1,23 @@
+#VALUES IN DICT
+marks = {"Arun": 80, "Bala": 75, "Kavin": 92}
+print("Marks =", marks.values())
+
+#TEST CASES
+marks = {"A":80,"B":90}
+print("Marks =", marks.values())
+
+marks = {"Ravi":70,"Priya":85}
+print("Marks =", marks.values())
+
+marks = {"X":50}
+print("Marks =", marks.values())
+
+marks = {"A":100,"B":95,"C":90}
+print("Marks =", marks.values())
+
+OUTPUT:
+Marks = dict_values([80, 75, 92])
+Marks = dict_values([80, 90])
+Marks = dict_values([70, 85])
+Marks = dict_values([50])
+Marks = dict_values([100, 95, 90])
