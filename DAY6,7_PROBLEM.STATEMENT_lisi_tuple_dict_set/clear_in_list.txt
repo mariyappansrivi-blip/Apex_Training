@@ -1,0 +1,38 @@
+#clear in list
+Cart=["Laptop","Mouse","Keyboard"]
+print("Before Clear=",Cart)
+Cart.clear()
+print("After Clear=",Cart)
+
+#test cases
+Cart=["10","20","30"]
+print("Before Clear=",Cart)
+Cart.clear()
+print("After Clear=",Cart)
+
+Cart=["A","B"]
+print("Before Clear=",Cart)
+Cart.clear()
+print("After Clear=",Cart)
+
+Cart=["Java"]
+print("Before Clear=",Cart)
+Cart.clear()
+print("After Clear=",Cart)
+
+Cart=[]
+print("Before Clear=",Cart)
+Cart.clear()
+print("After Clear=",Cart)
+
+OUTPUT:
+Before Clear= ['Laptop', 'Mouse', 'Keyboard']
+After Clear= []
+Before Clear= ['10', '20', '30']
+After Clear= []
+Before Clear= ['A', 'B']
+After Clear= []
+Before Clear= ['Java']
+After Clear= []
+Before Clear= []
+After Clear= []
