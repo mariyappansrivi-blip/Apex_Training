@@ -1,0 +1,23 @@
+#KEY IN DICT
+products = {"P101": "Laptop", "P102": "Mouse", "P103": "Keyboard"}
+print("Product Codes:", list(products.keys()))
+
+#TEST CASES
+products = {"P1":"Pen","P2":"Book"}
+print("Product Codes:", list(products.keys()))
+
+products = {"A":"Apple","B":"Ball"}
+print("Product Codes:", list(products.keys()))
+
+products = {"101":"Python","102":"Java"}
+print("Product Codes:", list(products.keys()))
+
+products = {"X":"Laptop"}
+print("Product Codes:", list(products.keys()))
+
+OUTPUT:
+Product Codes: ['P101', 'P102', 'P103']
+Product Codes: ['P1', 'P2']
+Product Codes: ['A', 'B']
+Product Codes: ['101', '102']
+Product Codes: ['X']
