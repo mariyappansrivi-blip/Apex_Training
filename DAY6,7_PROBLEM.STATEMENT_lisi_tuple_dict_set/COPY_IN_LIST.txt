@@ -1,0 +1,44 @@
+#copy in list
+Student=["Arun","Bala","Kavin"]
+Copied=Student.copy()
+Copied.append("Ravi")
+print("Original=",Student)
+print("Copied=",Copied)
+
+#test cases
+S=["A","B"]
+Copied=S.copy()
+Copied.append("C")
+print("Original=",S)
+print("Copied=",Copied)
+
+S=["10","20"]
+Copied=S.copy()
+Copied.append("30")
+print("Original=",S)
+print("Copied=",Copied)
+
+S=["Java"]
+Copied=S.copy()
+Copied.append("Python")
+print("Original=",S)
+print("Copied=",Copied)
+
+S=[]
+Copied=S.copy()
+Copied.append("Sakthi")
+print("Original=",S)
+print("Copied=",Copied)
+
+OUTPUT:
+Original= ['Arun', 'Bala', 'Kavin']
+Copied= ['Arun', 'Bala', 'Kavin', 'Ravi']
+Original= ['A', 'B']
+Copied= ['A', 'B', 'C']
+Original= ['10', '20']
+Copied= ['10', '20', '30']
+Original= ['Java']
+Copied= ['Java', 'Python']
+Original= []
+Copied= ['Sakthi']
+
