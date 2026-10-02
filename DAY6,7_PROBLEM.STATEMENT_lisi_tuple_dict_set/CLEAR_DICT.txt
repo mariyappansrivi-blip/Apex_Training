@@ -1,0 +1,38 @@
+#CLEAR_DICT
+session = {"user": "Arun","role": "Student","status": "Active"}
+print("Before =", session)
+session.clear()
+print("After =", session)
+
+#TEST CASES
+session = {"A":1,"B":2}
+print("Before =", session)
+session.clear()
+print("After =", session)
+
+session = {"user":"Ravi"}
+print("Before =", session)
+session.clear()
+print("After =", session)
+
+session = {}
+print("Before =", session)
+session.clear()
+print("After =", session)
+
+session = {"x":10,"y":20}
+print("Before =", session)
+session.clear()
+print("After =", session)
+
+OUTPUT:
+Before = {'user': 'Arun', 'role': 'Student', 'status': 'Active'}
+After = {}
+Before = {'A': 1, 'B': 2}
+After = {}
+Before = {'user': 'Ravi'}
+After = {}
+Before = {}
+After = {}
+Before = {'x': 10, 'y': 20}
+After = {}
